@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    padding: 0;
+    background:#FFF8F0
+}
+
+ .name{
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(to top, #a8ede9a1 0%, #fed6e3 100%);
+}
+
+ .name.content{
+    width: 50%;
+    height:50% ;
+    position:absolute;
+    left: 25% ;
+}
+
+ .name .img{
+    position:absolute;
+    top: 3%;
+    right: 20%;
+    width: 800px;
+    height: 800px;
+ }
+ 
+  .name .img img{
+    position:static;
+    width: 760px ;
+    height: 260px;
+  }
+
+   .img {
+    background-image: url(peine.jpg);
+    background-position:center;
+    background: no-repeat;
+    display: flexbox;
+    justify-content: center;
+  }
+ 
+   .info {
+    width: 90%;
+    height: auto;
+    background-image: linear-gradient(to top, #a8ede9a1 0%, #fed6e3 100%);
+    margin:5% auto;
+    padding: 20px;
+    border-radius: 20px;
+  }
+
+ .info .tituloSeccion{
+    color: #black;
+    font-family: 'Merriweather', sans serif;
+    font-size: xx-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: 2px #FFF8F0 dashed;
+ }
+
+ .info tituloInfo{
+    color: #black;
+    font-family:'Merriweather', sans serif;
+    font-weight:bolder;
+    font-size:large;
+    margin-rigth: 20px;
+ }
+
+ .info InfoInfo{
+    color:black;
+    font-family: 'Merriweather', sans serif;
+    font-weight: normal;
+    font-size: large;
+    margin-right: 20px;
+ }
+
+ .contenedor-botones{
+   height: 30%;
+   width: 30%;
+   display:grid;
+   gap: 40px;
+ }
+
+.button{
+      display:inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 50%;
+      height: 80px;
+      background: #f1b0cbe3;
+      color: #e655a4;
+      font-family: 'Roboto', sans-serif;
+      font-size: 20px;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      text-transform: uppercase;
+      transition: .3s aese all;
+      border-radius: 5px;
+} 
+
+ .button:hover{
+   background: #88dcebc7;
+}
